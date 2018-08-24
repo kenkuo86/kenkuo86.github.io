@@ -1,0 +1,82 @@
+body, html{
+	padding: 0;
+	margin: 0;
+}
+div{
+	position: relative;
+}
+.navbar, .main, .container{
+	display: block;
+}
+.navbar{
+	background-color: #444;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 8px;
+}
+h1,h2,ul{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h2,ul,li{
+	display: inline-block;
+}
+li{
+	padding-left: 12px;
+	color:#C2C2C2;
+	transition: 0.2s;
+}
+li:hover{
+	color: white;
+}
+ul{
+	list-style: none;
+}
+.main{
+	background-color: #ccc;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+h1{
+	font-size: 64px;
+}
+.learnmore{
+	width: 15%;
+	padding-left: 8px;
+	border-radius: 4px;
+	line-height: 3;
+	background-color: #309CD9;
+	color: white;
+	font-size: 20px;
+	transition: 0.3s;
+}
+.learnmore:hover{
+	background-color: #3059D9;
+}
+.container{
+	width: 70vw;
+	margin: 0 auto;
+	margin-top: 48px;
+	margin-bottom: 5%;
+}
+.block{
+	display: inline-block;
+	width: 33.33333%;
+}
+.viewdtl{
+	background-color: #777;
+	width: 40%;
+	line-height: 2.5;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 4px;
+	color: white;
+	/*padding: 5px 3px 5px 3px;*/
+	transition: 0.3s;
+}
+.viewdtl:hover{
+	background-color: #555;
+}
